@@ -1,0 +1,9 @@
+1. exact json
+```
+tools/scripts/ath11k/ath11k-bdencoder -e board-2.bin -o board.json
+```
+
+2. generate new bin
+```
+tools/scripts/ath11k/ath11k-bdencoder -c board.json -o board-2.bin
+```
